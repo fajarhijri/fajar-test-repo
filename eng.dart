@@ -1,5 +1,5 @@
-class Eng {
+class Enggg {
   late String eng;
 
-  Eng(this.eng);
+  Enggg(this.eng);
 }
