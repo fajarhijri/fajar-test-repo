@@ -3,10 +3,10 @@ import 'hijri.dart';
 import 'staff.dart';
 
 main(List<String> args) {
-  Hijri hijri = Hijri("Fajar");
+  Hijri eng = Hijri("Fajar");
 
-  Staff staff = Staff("Staffku");
+  Staff superstaff = Staff("Staffku");
 
-  print("Hello " + hijri.fajar);
-  print("Hello " + staff.staff);
+  print("Hello " + eng.fajar);
+  print("Hello " + superstaff.staff);
 }
