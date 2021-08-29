@@ -1,3 +1,7 @@
+import 'hijri.dart';
+
 main(List<String> args) {
-  print("Hello Fajar");
+  Hijri hijri = Hijri("Fajar");
+
+  print("Hello " + hijri.fajar);
 }
